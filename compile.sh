@@ -15,3 +15,10 @@ echo "Assembling single bitcode..."
 extract-bc ../fuelsys
 
 echo "Assembled!"
+
+echo "Copying bc and exec..."
+mkdir -p build
+mv ../fuelsys build/
+mv ../fuelsys.bc build/
+
+echo "Done!"

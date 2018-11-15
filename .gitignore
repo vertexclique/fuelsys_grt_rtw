@@ -3,3 +3,9 @@
 *.o
 *.mat
 .DS_Store
+build/
+
+
+# Executables
+fuelsys
+fuelsys.bc
